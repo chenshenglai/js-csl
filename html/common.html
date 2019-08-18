@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="../assets/bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../common/common.css">
+    <link rel="stylesheet" href="../css/getting-set.css">
+    <script src='../js/index.js'></script>
+</head>
+
+<body>
+    <div class='container'>
+        <div class='left'>
+            <img src="../images/logo.png" alt="">
+            <ul class="nav">
+                <li class='manager-info navtop'>
+                    <a href="#"><i></i>运营者信息<i></i></a>
+                    <ul class='nav-middle'>
+                        <li><a href="#">信息修改</a></li>
+                    </ul>
+                </li>
+                <li class='work-info navtop'>
+                    <a href="#"><i></i>保洁阿姨信息<i></i></a>
+                    <ul class='nav-middle'>
+                        <li><a href="#">信息修改</a>
+                            <ul class='nav-bottom'>
+                                <li><a href="#">详情</a></li>
+                            </ul>
+                            <li><a href="#">工作位置</a>
+                                <li><a href="#">提成设置</a>
+                                </li>
+                    </ul>
+                    </li>
+                    <li class='room-record'><i></i><a href="#">房间保洁记录</a></li>
+                    <li class='room-info'><i></i><a href="#">房间信息</a></li>
+                    <li class='room-check'><i></i><a href="#">房间信息查询</a></li>
+                    <li class='ready-order'><i></i><a href="#">预排单</a></li>
+                    <li class='attemper'><i></i><a href="#">派单</a></li>
+            </ul>
+
+        </div>
+        <div class='right'>
+            <div class="heard">
+                <input type="text" placeholder="搜索手机号、姓名" class='search'>
+                <i></i>
+                <img src="../images/personal center.png" alt="">
+            </div>
+            <div class="main">
+                <div class='main-box'>
+                    <!-- 每一个页面就是main-box里面的内容不一样-->
+                    <div class='main-content'>
+                        <include src="./getting-set.html"></include>
+                        <!-- 这里的内容是变化的 -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
